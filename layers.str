@@ -1,0 +1,22 @@
+# Empty lines and lines starting with '#' symbol are ignored 
+
+# some specified constants are written as name_of_constant: value_of_constant
+
+lambda_red: 630.0
+lambda_green: 532.0
+lambda_blue: 465.0
+
+point_density: 500
+# depth to which draw maps from declared layer structure
+depth: 300.0
+
+# Name_of_layer[{n_red, n_green, n_blue}, d]
+# where: n_red, n_green, n_blue,are complex numbers written as (re, im)
+# d is double precision floating point number and denotes material thickness
+# layers will be placed in the same order as they appear in the document
+
+ Air  [{(1.0, 0.0),(1.0, 0.0),(1.0, 0.0)}, 0.0]
+ MoO2 [{(2.4889, -0.011744), (2.5694, -0.017842), (2.6870, -0.029945)}, 300.0]
+ MoO2 [{(2.4889, -0.011744), (2.5694, -0.017842), (2.6870, -0.029945)}, 300.0]
+ MoO2 [{(2.4889, -0.011744), (2.5694, -0.017842), (2.6870, -0.029945)}, 300.0]
+# Base [{(1.0, 0.0),(1.0, 0.0),(1.0, 0.0)}, 0.0]
