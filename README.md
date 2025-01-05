@@ -2,7 +2,7 @@
 ---
 ## Building 
 1. setup rust enviroment: [Rust install](https://www.rust-lang.org/tools/install)
-2. clone repo: git clone https://github.com/lukradecki/iil
+2. clone repo: git clone https://github.com/lukradecki/map.git
 3. cd into repo
 4. `cargo build --release` to build package or `cargo run` to run it
    
